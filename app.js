@@ -17,3 +17,7 @@ console.log(document.getElementsByClassName('p'));
 // class名がない時は null ではなく空のHTMLcollectionが返ってくる
 
 console.log('querySelector');
+
+// addEventListener メリット
+// 1,追加をしていけるので優れている、onclickは上書きになってしまう。
+// 2,once = true で一度のみの実行ができる
