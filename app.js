@@ -21,3 +21,7 @@ console.log('querySelector');
 // addEventListener メリット
 // 1,追加をしていけるので優れている、onclickは上書きになってしまう。
 // 2,once = true で一度のみの実行ができる
+
+// イベントのthis を使う時はアロー関数の場合周りを示すので注意して使おう
+
+// on keydown は２つの値をとれる。key , code 二つはキーボード配列の違いから出力に違いが出るので注意
