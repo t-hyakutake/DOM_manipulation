@@ -1,3 +1,8 @@
+getElementById
+getElementsByClassName
+getElementsByTagName
+
+
 console.log('getelementById');
 const bn = document.getElementById('banner'); //id 取得
 console.dir(bn);
@@ -25,3 +30,8 @@ console.log('querySelector');
 // イベントのthis を使う時はアロー関数の場合周りを示すので注意して使おう
 
 // on keydown は２つの値をとれる。key , code 二つはキーボード配列の違いから出力に違いが出るので注意
+
+app.get('/r/:subreddit', (req, res) => {
+    const { subreddit } = req.params;
+    res.send(`<h1>${subreddit}</h1>`)
+})
