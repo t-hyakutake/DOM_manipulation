@@ -1,3 +1,5 @@
+// udemy_wiki.htmlのscript操作
+
 getElementById
 getElementsByClassName
 getElementsByTagName
